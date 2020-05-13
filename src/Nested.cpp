@@ -1,7 +1,3 @@
-//
-// Created by adamv on 4/26/20.
-//
-
 #include "Nested.h"
 using namespace std;
 

@@ -1,13 +1,9 @@
 #include <map>
 #include <set>
-#include <tuple>
-#include <functional>
 #include <string>
-#include <locale>
 #include <experimental/random>
 #include "N.h"
 #include "NS.h"
-#include <memory>
 
 using namespace std;
 using std::experimental::randint;

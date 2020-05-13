@@ -1,16 +1,7 @@
-//
-// Created by adamv on 3/3/20.
-//
-
 #ifndef EXELIXISBASE_NS_H
 #define EXELIXISBASE_NS_H
 
-
-#include <vector>
-#include <functional>
-#include <iterator>
 #include <algorithm>
-#include <numeric>
 #include <iostream>
 #include "N.h"
 

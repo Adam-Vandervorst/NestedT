@@ -1,18 +1,13 @@
-#include <vector>
-#include <map>
 #include <iostream>
-#include "functional"
 #include <iomanip>
 #include <chrono>
-#include <set>
 #include "N.h"
 #include "NS.h"
 #include "Rewriting.h"
 #include "Nested.h"
 
-using std::cout, std::endl, std::bind;
+using std::cout, std::endl;
 using namespace std::chrono;
-using std::placeholders::_1;
 
 
 namespace tests {

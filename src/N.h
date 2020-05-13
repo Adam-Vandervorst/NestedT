@@ -1,7 +1,3 @@
-//
-// Created by adamv on 2/28/20.
-//
-
 #ifndef EXELIXISBASE_N_H
 #define EXELIXISBASE_N_H
 

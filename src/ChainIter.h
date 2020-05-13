@@ -1,7 +1,3 @@
-//
-// Created by adamv on 3/23/20.
-//
-
 #ifndef EXELIXISBASE_CHAINITER_H
 #define EXELIXISBASE_CHAINITER_H
 

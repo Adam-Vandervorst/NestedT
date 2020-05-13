@@ -1,7 +1,3 @@
-//
-// Created by adamv on 4/24/20.
-//
-
 #include "Rewriting.h"
 
 

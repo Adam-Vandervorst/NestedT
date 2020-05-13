@@ -6,7 +6,7 @@
 #include "Rewriting.h"
 #include "Nested.h"
 
-using std::cout, std::endl;
+using std::cout, std::endl, std::get_if;
 using namespace std::chrono;
 
 

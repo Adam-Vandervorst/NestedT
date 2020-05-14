@@ -3,6 +3,7 @@ A prototype for nested graphs where edges are tagged with other nodes.
 
 This concept is explained on [my research blog](https://research.adamv.be/#Unifyingrichgraphswithedgestoedges).
 
+This implementation is competing with [HierarchyT](https://github.com/Adam-Vandervorst/HierarchyT).
 ## Motivation
 The basis is extremely small and flexible. T-Graphs contain a vector of nodes and nodes can store atoms (strings, integers, doubles and functions) or other T-Graphs. A node is connected to a node *via* another node. This allows you to associate arbitrary information with an edge.
 
@@ -13,7 +14,7 @@ Both are explained and motivated beautifully [here](https://blog.opencog.org/201
 This is an **extremely experimental** implementation and has absolutely **no guarantees**. 
 
 - T-Graphs are created with `NS* g = new NS();` and destroyed with `delete g->clear();`
-- Nodes can be created with `auto p = new(g) N("p")` and contain `std::string, int, double, NS*`
+- Nodes are spawned with `auto p = new(g) N("p")` and can contain `std::string, int, double, NS*`
 - If you have a lot of nodes to define, you can use `auto [_1, _2, _3] = g->wrap(1, 2, 3);`
 - A node can be connected to other nodes by writing `_1->connect(p, {_2. _3});`
 - Similarly  can disconnect the edge with property `p` from `a` to `b` by `a.disconnect(p, {b});`
